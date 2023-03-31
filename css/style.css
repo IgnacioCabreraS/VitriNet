@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagen/portada.jpg);;
+/* vh es ocupar el 10 de la altura visible de la pantalla*/
+    height: 100vh; 
+/* escala de la imagen al tamaño posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
+    background-size: cover;
+    background-position: cover;
+    min-height: 100px;
+} 
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: solid transparent 1px;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+ul li.inicio a{
+    background-color: lavender;
+    color: black;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.registro{
+    text-decoration: none;
+    color: aliceblue;
+    border: solid 2px rgb(7, 3, 243);
+    
+}
+form{
+    justify-content: center;
+    display: flex;
+}
