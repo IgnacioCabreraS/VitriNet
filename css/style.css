@@ -4,7 +4,7 @@
     font-family: century;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagen/portada.jpg);;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/portada.jpg);;
 /* vh es ocupar el 10 de la altura visible de la pantalla*/
     height: 100vh; 
 /* escala de la imagen al tamaño posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
@@ -13,7 +13,7 @@ header{
     min-height: 100px;
 } 
 
-ul{
+ul.portada{
     float: right;
     list-style-type: none;
     margin-top: 30px;
@@ -21,17 +21,17 @@ ul{
     margin-right: 60px;
     font-size: 17px;
 }
-ul li{
+ul li.portada{
     display: inline-block;
 }
-ul li a{
+ul li.portada a{
     text-decoration: none;
     color: aliceblue;
     padding: 5px 20px;
     border: solid transparent 1px;
     transition: 0.5 ease;
 }
-ul li a:hover{
+ul li.portada a:hover{
     background-color: aliceblue;
     color: black;
 }
@@ -52,4 +52,9 @@ ul li.inicio a{
 form{
     justify-content: center;
     display: flex;
+}
+
+.carousel.inner {
+    width: 30px;
+    height: 30px;
 }
