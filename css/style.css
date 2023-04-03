@@ -7,7 +7,7 @@ header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/portada.jpg);;
 /* vh es ocupar el 10 de la altura visible de la pantalla*/
     height: 100vh; 
-/* escala de la imagen al tamaño posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
+/* escala de la imagen al tamanio posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
     background-size: cover;
     background-position: cover;
     min-height: 100px;
@@ -54,7 +54,3 @@ form{
     display: flex;
 }
 
-.carousel.inner {
-    width: 30px;
-    height: 30px;
-}

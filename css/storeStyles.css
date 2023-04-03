@@ -1,0 +1,41 @@
+.store-profile{
+    margin: 0px;
+    padding: 0px;
+}
+
+.store-profile-pic{
+    display: block;
+    width: 15%;
+    margin: 0px auto;
+}
+
+.store-profile-name{
+    font-family: 'Inter', sans-serif;
+    text-align:center;
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+.store-profile-description{
+    font-family: 'Inter', sans-serif;
+    text-align:center;
+    margin: 0px auto;
+    font-size: 20px;
+
+}
+
+.store-products{
+    display: inline-block;
+    text-align:center;
+}
+
+.store-products img{
+    width: 15%;
+    margin: 5px;
+    transition: transform .2s; 
+}
+
+.store-products img:hover{
+    transform: scale(1.04); 
+}
+
