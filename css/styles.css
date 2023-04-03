@@ -4,10 +4,10 @@
     font-family: century;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/portada.jpg);;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/portada.jpg);
 /* vh es ocupar el 10 de la altura visible de la pantalla*/
     height: 100vh; 
-/* escala de la imagen al tamanio posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
+/* escala de la imagen al tamaño posble sin estirarla, esto hace las proporciones de la imagen difieren de las del elemento */
     background-size: cover;
     background-position: cover;
     min-height: 100px;
@@ -39,18 +39,45 @@ ul li.inicio a{
     background-color: lavender;
     color: black;
 }
-.logo img{
-    height: 100px;
-    width: 100px;
-}
+
 .registro{
     text-decoration: none;
     color: aliceblue;
     border: solid 2px rgb(7, 3, 243);
+
     
 }
-form{
-    justify-content: center;
+.carousel.inner {
+    width: 30px;
+    height: 30px;
+}
+.letra{
+    color: aliceblue;
+}
+.todo1{
+    background-color: aqua;
+}
+.todo2{
+    background-color: steelblue;
+}
+.todo3{
+    background-color: greenyellow;
+}
+.inicioS {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+.inicioP  { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+.cambio{
+    color: aliceblue;
 }
 
