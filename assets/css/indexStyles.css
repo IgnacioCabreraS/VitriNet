@@ -27,6 +27,12 @@ ul.portada{
     font-size: 17px;
 }
 
+#notify{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: green;
+}
+
 ul li.portada{
     display: inline-block;
 }
