@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.store-profile-pic{
+.img-fluid{
     display: block;
     width: 15%;
     margin: 0px auto;
@@ -37,5 +37,9 @@
 
 .store-products img:hover{
     transform: scale(1.04); 
+}
+
+#popup-img{
+    border: 5px solid white;
 }
 
