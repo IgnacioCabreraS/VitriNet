@@ -3,75 +3,91 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f4f4f4;
 }
 
-.RegistroUsu {
-    max-width: 800px;
-    margin: 30px auto;
+.Registrousuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.RegistroUsu{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    width: 50%;
 }
 
-form {
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-h1 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-ul.registro {
-    list-style: none;
-    padding: 0;
-}
-
-ul.registro li {
+.registro li {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
-label {
+label{
     font-weight: bold;
-    font-size: 16px;
+    margin-bottom: 5px;
 }
 
-input {
-    flex-grow: 1;
-    margin-left: 10px;
-    padding: 5px 10px;
+input{
+    height: 30px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    padding: 0 10px;
 }
 
-button[type="submit"] {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+button[type="submit"]{
+    background-color: #3498db;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    align-self: flex-start;
     cursor: pointer;
 }
 
-.Retroceder {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+button[type="submit"]:hover{
+    background-color: #2980b9;
 }
 
-.Retroceder button {
-    background-color: #f8d7da;
-    color: #dc3545;
+.Retroceder{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.Retroceder button{
+    background-color: #e74c3c;
     border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
     cursor: pointer;
+}
+
+.Retroceder button:hover{
+    background-color: #c0392b;
+}
+
+label.error{
+    color: red;
 }
