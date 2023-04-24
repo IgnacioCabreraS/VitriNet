@@ -11,3 +11,10 @@ EP1.1: Análisis de funcionalidades:
 4- Perfil de vendedores: permitir a los vendedores mostrar información adicional acerca de su negocio y personalizar su presencia en la plataforma.
 5- Comentarios y calificaciónes de vendedores: los clientes pueden compartir sus opiniones sobre los productos y tiendas para ayudar a otros usuarios en sus compras.
 
+EP2.2: Incluyendo interacción en el front-end haciendo uso de TS o JS usando la librería JQuery.
+
+Interacción Jquery en "index.html". Cada vez que se entra al index, se muestra un mensaje en el encabezado que se puede cerrar dando click.
+
+EP2.3: Validación de los formularios haciendo uso de JS.
+
+Validación con Jquery en el registro de pymes, registro de usuarios, inicio de sesión de pymes e inicio de sesión usuarios.
