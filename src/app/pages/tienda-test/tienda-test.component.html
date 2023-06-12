@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Tiendas/Emprendimientos registrados</h1>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Web</th>
+            <th>Cantidad</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let tienda of tiendas">
+                <td> {{ tienda.id }} </td>
+                <td> {{ tienda.nombre }}  </td>
+                <td> {{ tienda.paginaWeb }} </td>
+                <td> {{ tienda.cantProductos }} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Paris",
+        "paginaWeb": "www.paris.cl",
+        "cantProductos": "24"
+    },
+    {
+        "id": 2,
+        "nombre": "Ripley",
+        "paginaWeb": "www.ripley.cl",
+        "cantProductos": "43"
+    },
+    {
+        "id": 3,
+        "nombre": "cuadrosMate",
+        "paginaWeb": "www.cuadrosMate.cl",
+        "cantProductos": "10"
+    },
+    {
+        "id": 4,
+        "nombre": "americanaChile",
+        "paginaWeb": "-no registra-",
+        "cantProductos": "5"
+    },
+    {
+        "id": 5,
+        "nombre": "ArtesaniasLuna",
+        "paginaWeb": "www.artesaniasluna.cl",
+        "cantProductos": "15"
+    },
+    {
+        "id": 6,
+        "nombre": "ModaViva",
+        "paginaWeb": "www.modaviva.cl",
+        "cantProductos": "30"
+    },
+    {
+        "id": 7,
+        "nombre": "DeliciasDelCampo",
+        "paginaWeb": "www.deliciasdelcampo.cl",
+        "cantProductos": "20"
+    },
+    {
+        "id": 8,
+        "nombre": "JoyasDelSur",
+        "paginaWeb": "www.joyasdelsur.cl",
+        "cantProductos": "25"
+    },
+    {
+        "id": 9,
+        "nombre": "EcoTech",
+        "paginaWeb": "www.ecotech.cl",
+        "cantProductos": "18"
+    },
+    {
+        "id": 10,
+        "nombre": "CasaBella",
+        "paginaWeb": "www.casabella.cl",
+        "cantProductos": "22"
+    }
+]
