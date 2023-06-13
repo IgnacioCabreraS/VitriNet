@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="body">
+        <h1>Inicie sesión</h1>
+        <form [formGroup]="formulario" (ngSubmit)="login()" novalidate>
+            <div class="form-group">
+                <ul>
+                    <li>
+                        <div class="form-check">
+                            <div *ngIf="email.errors && email.dirty">
+                                <div *ngIf="email.hasError('required')" class="alert alert-danger">Escriba su correo electronico.</div>
+                                <div *ngIf="email.hasError('email')" class="alert alert-danger">Use el formato de correo electronico correcto.</div>
+                        
+                            </div>   
+                            <input type="email" class="form-control" placeholder="correo electrónico" formControlName="email">
+                        </div>  
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <div *ngIf="password.errors && password.dirty">
+                                <div *ngIf="password.hasError('required')" class="alert alert-danger">Digite su contraseña.</div>
+                                <div *ngIf="password.hasError('maxlength')" class="alert alert-danger">Maximo de caracteres excedido.</div>
+                        
+                            </div> 
+                            <input type="password" class="form-control" placeholder="Contraseña" formControlName="password">
+                        </div> 
+                    </li>
+                    <li><button type="submit" class="btn btn-primary" [disabled]="formulario.invalid">Iniciar sesión</button></li>
+                </ul>
+           </div>
+        </form>
+    </div>
+</div>

@@ -1,5 +1,32 @@
 # Vitrinet
 
+Integrantes:
+-Alexander Guillaume
+-Ignacio Cabrera
+
+EP3.1:Implementación de las diferentes interfaces gráficas de front-end haciendo uso de algún framework:
+
+Integramos AngularCli en nuestro proyecto, creamos las interfaces para nuestro header, body, footer, sobreNosotros y una interfaz de información sobre las tiendas o emprendimientos ingresados a la web.
+
+EP3.2 Crear datos a través de colecciones usando JSON
+EP3.3: Cargar datos usando colecciones JSON creadas.
+
+Creamos un tienda.json que guarda información sobre las personas que ingresen su negocio a la web. Esto se carga cuando se selecciona "Tienda" en el header, y aparece abajo del footer.
+
+EP3.4: Validación de formularios y mensajes de retroalimentación.
+
+Creamos un "login" y un "register" en la carpeta forms. 
+
+
+Importante:
+
+Todo lo que aparece en el footer, aparece al final, despues del footer.
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
 
 ## Development server
