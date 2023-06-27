@@ -4,25 +4,26 @@ Integrantes:
 -Alexander Guillaume
 -Ignacio Cabrera
 
-EP3.1:Implementación de las diferentes interfaces gráficas de front-end haciendo uso de algún framework:
+EF.1: Nuestro proyecto es responsivo, en su mayoria de apartados, tiene pequeños errores a la hora de adaptarse al modo celular.
 
-Integramos AngularCli en nuestro proyecto, creamos las interfaces para nuestro header, body, footer, sobreNosotros y una interfaz de información sobre las tiendas o emprendimientos ingresados a la web.
+EF.2: No consideramos ni rol admin ni usuario para esta entrega.
 
-EP3.2 Crear datos a través de colecciones usando JSON
-EP3.3: Cargar datos usando colecciones JSON creadas.
+EF.3: Añadimos un Api Rest NodeJs en el backend. Usamos mysql, xampp e insomnia para operar. Nuestra idea era mostrar la tabla "empresa" con atributos id_empresa, nombre y numero de productos para mostralos en el componente "tienda-test". A pesar de que la conexión se realiza de forma correcta, no se muestran los datos en el frontend.
 
-Creamos un tienda.json que guarda información sobre las personas que ingresen su negocio a la web. Esto se carga cuando se selecciona "Tienda" en el header, y aparece abajo del footer.
+EF.4: Conectamos backend y frontend usando XAMPP y mysql, aunque no contemplamos ninguna función para que se vea el funcionamiento.
 
-EP3.4: Validación de formularios y mensajes de retroalimentación.
-
-Creamos un "login" y un "register" en la carpeta forms. 
-
+EF.5: Solo contemplamos la autenticación y captcha para la seguridad web.
 
 Importante:
 
-Todo lo que aparece en el header, aparece al final, despues del footer.
+Todo lo que aparece en el header, aparece al final despues del footer.
 
 
+
+COMO EJECUTAR PROGRAMA:
+
+Primero se ejecuta el backend, hay que primero abrir XAMPP y activar Apache y MySql, despues hay que moverse a /backend y colocar en la terminal: npm run dev
+Por ultimo se ejecuta el frontend usando: ng serve
 
 
 
