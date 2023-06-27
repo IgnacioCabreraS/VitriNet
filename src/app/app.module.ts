@@ -11,7 +11,9 @@ import { LoginComponent } from './forms/login/login.component';
 import { RegisterComponent } from './forms/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.component';
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.co
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    FormsModule,
+    HttpClientModule,
+    NgxCaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

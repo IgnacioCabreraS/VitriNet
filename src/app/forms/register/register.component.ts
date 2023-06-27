@@ -7,12 +7,16 @@ import {FormGroup,FormBuilder,Validators,AbstractControl} from '@angular/forms';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit {
+
+  siteKey: string;
+
   formulario:FormGroup;
   usuario: AbstractControl;
   email: AbstractControl;
   password:AbstractControl;
 
   constructor(private form:FormBuilder) {
+    this.siteKey = '6LcBcNMmAAAAAIi2T75YijzIcVwUCV3r4QwHZeKd';
     this.formulario=this.form.group({
       usuario:['',Validators.required],
       email:['',[Validators.required,Validators.email]],

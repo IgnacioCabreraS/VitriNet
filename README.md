@@ -20,7 +20,7 @@ Creamos un "login" y un "register" en la carpeta forms.
 
 Importante:
 
-Todo lo que aparece en el footer, aparece al final, despues del footer.
+Todo lo que aparece en el header, aparece al final, despues del footer.
 
 
 

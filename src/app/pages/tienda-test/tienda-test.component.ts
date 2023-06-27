@@ -1,12 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import dataTiendas from './tienda.json';
-
-interface Tienda{
-  id: Number;
-  nombre: String;
-  paginaWeb: String;
-  cantProductos: String;
-}
+import { DataService, EmpresaDato } from 'src/app/data.service';
 
 @Component({
   selector: 'app-tienda-test',
@@ -14,12 +7,28 @@ interface Tienda{
   styleUrls: ['./tienda-test.component.scss'],
   
 })
+
 export class TiendaTestComponent implements OnInit {
   
-  constructor() {}
+  //Variable
+  ListarEmpresa: EmpresaDato[]=[];
+  constructor(private DataService:DataService){
 
-  tiendas: Tienda[] = dataTiendas;
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.listaEmpresa();
+  }
+
+  listaEmpresa(){
+    this.DataService.getEmpresas().subscribe(
+      res=>{
+        console.log(res)
+        this.ListarEmpresa=<any>res;
+      },
+      err => console.log(err)
+    );
+  }
+
   
 }

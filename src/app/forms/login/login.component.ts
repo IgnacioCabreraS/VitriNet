@@ -7,11 +7,17 @@ import {FormGroup,FormBuilder,Validators,AbstractControl} from '@angular/forms';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+
+  siteKey: string;
+
   formulario:FormGroup;
   email: AbstractControl;
   password:AbstractControl;
 
   constructor(private form:FormBuilder) {
+
+    this.siteKey = '6LcBcNMmAAAAAIi2T75YijzIcVwUCV3r4QwHZeKd';
+
     this.formulario=this.form.group({
       email:['',[Validators.required,Validators.email]],
       password: ['', Validators.required]

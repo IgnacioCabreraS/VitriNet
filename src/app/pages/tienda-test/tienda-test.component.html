@@ -1,20 +1,28 @@
-<div class="container">
-    <h1>Tiendas/Emprendimientos registrados</h1>
-    <table>
-        <thead>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Web</th>
-            <th>Cantidad</th>
-        </thead>
-        <tbody>
-            <tr *ngFor="let tienda of tiendas">
-                <td> {{ tienda.id }} </td>
-                <td> {{ tienda.nombre }}  </td>
-                <td> {{ tienda.paginaWeb }} </td>
-                <td> {{ tienda.cantProductos }} </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<h1></h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Cantidad productos</th>
+        <th scope="col">Editar</th>
+        <th scope="col">Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let empresa of ListarEmpresa">
+        <th>{{empresa.id_empresa}}</th>
+        <td>{{empresa.nombre}}</td>
+        <td>{{empresa.n_productos}}</td>
+        <td>
+
+            <button type="button" class="btn btn-primary">Modificar</button>
+        </td>
+        <td>
+
+            <button type="button" class="btn btn-danger">Eliminar</button>
+        </td>
+
+      </tr>
+      
+    </tbody>
+  </table>
